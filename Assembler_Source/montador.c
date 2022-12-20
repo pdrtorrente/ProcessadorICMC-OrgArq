@@ -2656,11 +2656,11 @@ int BuscaInstrucao(char * nome)
 
     else if (strcmp(str_tmp, PUSHN_STR) == 0)
     {
-        return PUSH_ALL_CODE;
+        return PUSHN_CODE;
     }
     else if (strcmp(str_tmp, POPN_STR) == 0)
     {
-        return POP_ALL_CODE;
+        return POPN_CODE;
     }
 
     else if (strcmp(str_tmp,HALT_STR) == 0)

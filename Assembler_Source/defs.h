@@ -2,7 +2,7 @@
 #define _DEFS_
 
 /* Definicoes gerais das instrucoes (op code 'interno') */
-
+       //OPCODE MAX. 99//
 #define LOAD_CODE               1
 #define STORE_CODE              2
 #define LOADIMED_CODE           84
@@ -31,8 +31,8 @@
 #define ROTL_CODE               22
 #define ROTR_CODE               23
 #define CMP_CODE                24
-#define BRA_CODE                25
-#define BEQ_CODE                26
+#define BRA_CODE                100 //Número inválido
+#define BEQ_CODE                200 //Número inválido
 #define BNE_CODE                27
 #define BZ_CODE                 28
 #define BNZ_CODE                29
@@ -104,8 +104,8 @@
 
 #define PUSH_ALL_CODE           98
 #define POP_ALL_CODE            99
-#define PUSHN_CODE             100
-#define POPN_CODE              200
+#define PUSHN_CODE              25
+#define POPN_CODE               26
 
 /* Definicoes dos op codes (binarios em strings) */
 
