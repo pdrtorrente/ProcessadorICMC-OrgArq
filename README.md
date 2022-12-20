@@ -14,3 +14,6 @@ De mesmo modo que as funções anteriores, o push n e pop n dão push e pop em o
   <li>Beatriz Lomes da Silva - 12548038</li>
   <li>Pedro Oliveira Torrente - 11798853</li>
 </ul>
+
+Projeto da disciplina: SSC0902 EngComp Organizacao e Arquitetura de Computadores (ICMC USP)
+Projeto original: https://github.com/simoesusp/Processador-ICMC
